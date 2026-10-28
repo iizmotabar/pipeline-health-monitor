@@ -1,6 +1,6 @@
 # Pipeline Health Monitor
 
-A monitoring layer for the pipeline itself, ingestion jobs and dbt runs, distinct from monitoring the business metrics that pipeline produces. Built from the kind of proactive monitoring setup I do at [motabar.builds.stuff](https://motabar.builds.stuff) so a team hears about a broken job within the hour instead of noticing a stale dashboard days later.
+A monitoring layer for the pipeline itself, ingestion jobs and dbt runs, distinct from monitoring the business metrics that pipeline produces. Built from the kind of proactive monitoring setup I do at [motabar.builds.stuff](https://motabarbuildstuff.com/) so a team hears about a broken job within the hour instead of noticing a stale dashboard days later.
 
 ## The problem this solves
 
@@ -34,3 +34,11 @@ A load job can report success while still producing bad data, an API that return
 ## Stack
 
 Python, BigQuery, dbt, Slack API
+
+## Related
+
+* Case study: [Proactive Insight Delivery With Slack Alerts](https://motabarbuildstuff.com/case-studies/proactive-insight-delivery-with-slack-alerts/)
+* Guide: [Why is my GA4 direct traffic so high?](https://motabarbuildstuff.com/blog/why-is-ga4-direct-traffic-so-high/)
+* Service: [All analytics and tracking services](https://motabarbuildstuff.com/services/)
+
+Built by [Motabar Javaid](https://motabarbuildstuff.com/about/), analytics engineer at [motabar.builds.stuff](https://motabarbuildstuff.com/).
